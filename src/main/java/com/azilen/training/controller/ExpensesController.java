@@ -117,6 +117,7 @@ public class ExpensesController {
                                HttpSession session) throws IOException {
         if(result.hasErrors()){
             model.addAttribute("error",result.getFieldError());
+
             return "expenses";
         }
 
