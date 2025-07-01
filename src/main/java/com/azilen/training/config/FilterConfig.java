@@ -13,5 +13,6 @@ public class FilterConfig {
         registrationBean.setFilter(new RegisterLoginFilter());
         registrationBean.addUrlPatterns("/*");
         return registrationBean;
+        //hello
     }
 }
